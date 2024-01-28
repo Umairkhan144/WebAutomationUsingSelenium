@@ -1,0 +1,380 @@
+{
+    "basic info": {
+        "fields": [
+            {
+                "name": "URL",
+                "url": "https://salonsymphony-frontend.tekstagearea.com/"
+            }
+        ]
+    },
+    "login": {
+        "fields": [
+            {
+                "name": "Email",
+                "type": "",
+                "locatorLV": "//input[@id='floatingInput']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Password",
+                "type": "",
+                "locatorLV": "//input[@id='floatingPassword']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "login btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Sign In']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "forgot password btn",
+                "type": "button",
+                "locatorLV": "//a[normalize-space()='Forgot Password?']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "send code btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Send Code']",
+                "locatorLT": "xpath"
+            }
+        ]
+    },
+    "alerts": {
+        "fields": [
+            {
+                "name": "skip tour",
+                "type": "button",
+                "locatorLV": "//div[@id='root']//div//div//aside//div//div//div//div//button[normalize-space()='Skip Tour']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "alerts tab",
+                "type": "button",
+                "locatorLV": "//p[normalize-space()='Alerts']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "create alert btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Create Alert']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "immediate btn",
+                "type": "button",
+                "locatorLV": "//h3[normalize-space()='Immediate']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "continue btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Continue']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Alert Title",
+                "type": "",
+                "locatorLV": "//input[@placeholder='Alert Title']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Alert Message",
+                "type": "",
+                "locatorLV": "//input[@placeholder='Alert Message']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "assign recipients",
+                "type": "button",
+                "locatorLV": "//div[@role='dialog']//div//div//div//div//div//div//div//div//div//div//div//input[@role='combobox']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "everyone",
+                "type": "button",
+                "locatorLV": "//div[@draggable='false']//span//span[contains(text(),'Everyone')]",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "send alert btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Send Alert']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "continue btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Continue']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Update_btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Update']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Delete_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[@title='Delete record']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Confirm_Delete_btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Yes, delete it!']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Edit_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[@title='Edit details']",
+                "locatorLT": "xpath"
+            }
+        ]
+    },
+    "products": {
+        "fields": [
+            {
+                "name": "products tab",
+                "type": "button",
+                "locatorLV": "//span[normalize-space()='Products']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "add product btn",
+                "type": "button",
+                "locatorLV": "//a[normalize-space()='Add Product']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Name",
+                "type": "",
+                "locatorLV": "//input[@placeholder='Enter product name']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Category",
+                "type": "dropdown",
+                "locatorLV": "//span[@id='select2-kt_select2_1-container']",
+                "locatorLT": "xpath",
+                "locatorLV1": "//body//span//span[@dir='ltr']//span//input[@role='textbox']",
+                "locatorLT1": "xpath"
+            },
+            {
+                "name": "Store",
+                "type": "dropdown",
+                "locatorLV": "//span[@id='select2-kt_select2_2-container']",
+                "locatorLT": "xpath",
+                "locatorLV1": "//body//span//span[@dir='ltr']//span//input[@role='textbox']",
+                "locatorLT1": "xpath"
+            },
+            {
+                "name": "Color",
+                "type": "autofill",
+                "locatorLV": "//input[@placeholder='Select']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Description",
+                "type": "",
+                "locatorLV": "//textarea[@id='description']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Image",
+                "type": "image",
+                "locatorLV": "//input[@id='media-file']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Save_btn",
+                "type": "button",
+                "locatorLV": "//button[@id='submit-click']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Delete_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[contains(@title,'Delete')]",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Confirm_Delete_btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Yes, delete it!']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Edit_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[@title='Edit details']",
+                "locatorLT": "xpath"
+            }
+        ]
+    },
+    "categories": {
+        "fields": [
+            {
+                "name": "Add_Category_btn",
+                "type": "button",
+                "locatorLV": "//a[normalize-space()='Add Category']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Category_Tab",
+                "type": "button",
+                "locatorLV": "//span[normalize-space()='Categories']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Name",
+                "type": "",
+                "locatorLV": "//input[contains(@placeholder,'name')]",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Save_btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Save']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Delete_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[@title='Delete']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Confirm_Delete_btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Yes, delete it!']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Edit_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[@title='Edit details']",
+                "locatorLT": "xpath"
+            }
+        ]
+    },
+    "stores": {
+        "fields": [
+            {
+                "name": "store tab",
+                "type": "button",
+                "locatorLV": "//span[normalize-space()='Stores']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "add store btn",
+                "type": "button",
+                "locatorLV": "//a[normalize-space()='Add Store']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Name",
+                "type": "",
+                "locatorLV": "//input[@placeholder='Enter store name']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Logo",
+                "type": "",
+                "locatorLV": "//input[@placeholder='Enter store logo']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "URL",
+                "type": "",
+                "locatorLV": "//input[@placeholder='Enter store url']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Save_btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Save']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Delete_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[@title='Delete record']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Confirm_Delete_btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Yes, delete it!']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Edit_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[@title='Edit details']",
+                "locatorLT": "xpath"
+            }
+        ]
+    },
+    "pages": {
+        "fields": [
+            {
+                "name": "pages tab",
+                "type": "button",
+                "locatorLV": "//span[normalize-space()='Pages']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "add page btn",
+                "type": "button",
+                "locatorLV": "//a[normalize-space()='Add Pages']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Title",
+                "type": "",
+                "locatorLV": "//input[@placeholder='Enter page name']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Slug",
+                "type": "",
+                "locatorLV": "//input[@placeholder='Enter page slug']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Content",
+                "type": "",
+                "locatorLV": "//textarea[@name='content']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Save_btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Save']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Delete_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[@title='Delete']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Confirm_Delete_btn",
+                "type": "button",
+                "locatorLV": "//button[normalize-space()='Yes, delete it!']",
+                "locatorLT": "xpath"
+            },
+            {
+                "name": "Edit_btn",
+                "type": "button",
+                "locatorLV": "//table//tr[contains(., '{data}')]//a[@title='Edit details']",
+                "locatorLT": "xpath"
+            }
+        ]
+    }
+}
